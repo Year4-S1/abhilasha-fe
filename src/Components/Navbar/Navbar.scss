@@ -1,0 +1,81 @@
+$defultTextFont:  sans-serif;
+@import '../colors.scss';
+
+.navbar-custom{
+    display: flex;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.nav-logo{
+    height: 70px;
+}
+
+.menu-custom{
+ margin-left: -1rem;
+ width: 60%;
+
+}
+
+.center-items-v{
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    justify-content: space-around;
+}
+
+.center-items-h{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-item{
+    font-family: $defultTextFont;
+    color: $primary-purple;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    width: max-content;
+    cursor: pointer;
+    
+}
+
+.menu-item:hover {
+    color: $primary-purple;
+    text-shadow:0px 0px 30px $primary-purple;
+    -webkit-text-stroke-width: .5px;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.upgrade-btn-div{
+    width: 100%;
+    justify-items:flex-end ;
+    padding-right: 2rem;
+}
+
+.upgrade-btn{
+    background-color: $primary-purple;
+    color: $white;
+    cursor: pointer;
+    height:50px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.upgrade-btn:hover {
+        -webkit-box-shadow:0 0 5px $primary-purple; 
+        -moz-box-shadow: 0 0 5px $primary-purple;
+        -ms-box-shadow: 0 0 5px $primary-purple; 
+        box-shadow:0 0 5px $primary-purple;
+        -webkit-text-stroke-width: .2px;
+}
+
+
+
+

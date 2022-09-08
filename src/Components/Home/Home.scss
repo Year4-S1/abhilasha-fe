@@ -1,0 +1,42 @@
+@import '../colors.scss';
+
+.logo-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.txt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    
+}
+
+.txt-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.txt-box-container{
+    width: 100%;
+    height: 30rem;
+    border: 2px solid $primary-purple;
+    padding-bottom: 20px;
+}
+
+.txt-box{
+    width: 100%;
+    height: 90%;
+    border: 0px solid transparent;
+
+
+}
+
